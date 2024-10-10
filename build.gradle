@@ -151,8 +151,8 @@ dependencies {
 
 mixin {
     // MixinGradle Settings
-    add sourceSets.main, 'mixins.tutorialmod.refmap.json'
-    config 'mixins.tutorialmod.json'
+    add sourceSets.main, 'mixins.betterconcreteconversion.refmap.json'
+    config 'mixins.betterconcreteconversion.json'
     debug.verbose = true
     debug.export = true
 }
