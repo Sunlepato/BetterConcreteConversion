@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "betterconcreteconversion",
 	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "This is an Tutorial Mod",
+	"name": "Better Concrete Conversion",
+	"description": "Converts concrete powder to blocks when touching water in item form",
 	"authors": [
 		"Me!"
 	],
@@ -12,24 +12,24 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/betterconcreteconversion/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.steakboi.tutorialmod.TutorialMod"
+			"net.steakboi.betterconcreteconversion.BetterConcreteConversion"
 		],
 		"fabric-datagen": [
-			"net.steakboi.tutorialmod.TutorialModDataGenerator"
+			"net.steakboi.betterconcreteconversion.BetterConcreteConversionDataGenerator"
 		],
 		"client": [
-			"net.steakboi.tutorialmod.TutorialModClient"
+			"net.steakboi.betterconcreteconversion.BetterConcreteConversionClient"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"betterconcreteconversion.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.7",
+		"fabricloader": ">=0.16.3",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
